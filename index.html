@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KongaHealth - Beauty Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and Base Styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #000000;
+        color: #ffffff;
+        line-height: 1.6;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+
+      /* Header Styles */
+      .header {
+        width: 100%;
+      }
+
+      .header img {
+        width: 100%;
+      }
+
+      /* Call to Order Section */
+      .call-to-order {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 15px 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      /* Section Headers */
+      .section-header {
+        background-image: url("https://www-konga-com-res.cloudinary.com/image/upload/v1720106219/landingPages/CeraVe/background-img.png"),
+          linear-gradient(90deg, #e6007e 0%, #662d91 50%, #009fe3 100%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+      }
+
+      /* Product Categories */
+      .product-categories {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 42px;
+        padding: 20px 10px;
+        background-color: #000000;
+      }
+
+      .category-card {
+        width: calc(33.333% - 15px);
+        max-width: 200px;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+      }
+
+      .category-card:hover {
+        transform: translateY(-5px);
+      }
+
+      /* Official Stores */
+      .official-stores {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+        padding: 20px 10px;
+        background-color: #000000;
+      }
+
+      .store-logo {
+        width: calc(33.333% - 10px);
+        max-width: 180px;
+        border-radius: 8px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Global Stores */
+      .global-stores {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 42px;
+        padding: 20px 10px;
+        background-color: #000000;
+      }
+
+      .global-store-card {
+        width: calc(50% - 15px);
+        max-width: 280px;
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+        background-color: #8a5a9e;
+      }
+
+      .global-store-card img {
+        width: 100%;
+        height: auto;
+      }
+
+      .shop-now-btn {
+        background-color: #f9a025;
+        color: #000000;
+        padding: 5px 15px;
+        border-radius: 5px;
+        font-weight: 700;
+        display: inline-block;
+        margin: 10px;
+        font-size: 14px;
+      }
+
+      /* Promotional Banners */
+      .promotional-banners {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px 10px;
+        background-color: #000000;
+      }
+
+      .promo-banner {
+        width: calc(50% - 15px);
+        max-width: 660px;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      /* Responsive Styles */
+      @media (max-width: 768px) {
+        .category-card {
+          width: calc(50% - 15px);
+        }
+
+        .store-logo {
+          width: calc(50% - 10px);
+        }
+
+        .global-store-card {
+          width: calc(100% - 15px);
+          max-width: 100%;
+        }
+
+        .promo-banner {
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .category-card {
+          width: 100%;
+          max-width: 100%;
+        }
+
+        .store-logo {
+          width: calc(50% - 10px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <img
+        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/k-health%20banner-8Oq6UgiWni8kXB4qt2oVgqqg8y2Q4J.png"
+        alt="KongaHealth Banner"
+      />
+    </header>
+
+    <!-- Call to Order Section -->
+    <div class="call-to-order">Call To Order 09070038627</div>
+
+    <!-- Best Sellers Section -->
+    <div class="section-header">Our Best Sellers</div>
+
+    <img src="products.png" alt="" style="width: 100%" />
+
+    <!-- Skin Categories Section -->
+    <div class="section-header">Skin Categories</div>
+
+    <!-- Product Categories -->
+    <div class="product-categories">
+      <a href="#" class="category-card">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Face%20Care-XUMsQ1RKUYkbDEOkLsIThYkzRrenfS.png"
+          alt="Face Care"
+        />
+      </a>
+      <a href="#" class="category-card">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Cleansers-A6rECKyi8CMvtq9fDNWNtGdl6lNots.png"
+          alt="Cleansers"
+        />
+      </a>
+      <a href="#" class="category-card">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Moisturizers-C5fKWrOrJWzV5KUdrMrDCRJlt97AV0.png"
+          alt="Moisturizers"
+        />
+      </a>
+      <a href="#" class="category-card">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Sunscreens-AqASH2nLOjW1gMcPOyF2nBuFZX8yZo.png"
+          alt="Sunscreens"
+        />
+      </a>
+      <a href="#" class="category-card">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Treatment%20%26%20Mask-ViC1j6zk7MGkvvi6BBRHaTXxZu5dfD.png"
+          alt="Treatment & Mask"
+        />
+      </a>
+      <a href="#" class="category-card">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Treatment%20%26%20Mask-1-PZnpRW0ARy9gBrLjcjSOmlD2QYqVUO.png"
+          alt="Treatment & Mask"
+        />
+      </a>
+    </div>
+
+    <!-- CeraVe Official Store Section -->
+    <div class="section-header">CeraVe Official Store</div>
+
+    <img src="products.png" alt="" style="width: 100%" />
+
+    <!-- Official Stores Section -->
+    <div class="section-header">Official Stores</div>
+
+    <!-- Official Store Logos -->
+    <div class="official-stores">
+      <!-- CeraVe logos - 12 instances -->
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+      <div class="store-logo">
+        <img src="cerave.png" alt="CeraVe" />
+      </div>
+    </div>
+
+    <!-- Global Stores Section -->
+    <div class="section-header">Our Global Stores</div>
+
+    <!-- Global Store Cards -->
+    <div class="global-stores">
+      <!-- CeraVe -->
+      <div class="global-store-card" style="background-color: #8a5a9e">
+        <img src="cerave brand.png" alt="CeraVe" />
+      </div>
+
+      <!-- Garnier -->
+      <div class="global-store-card" style="background-color: #8a5a9e">
+        <img src="garnier brand.png" alt="Garnier" />
+      </div>
+
+      <!-- La Roche-Posay -->
+      <div class="global-store-card" style="background-color: #8a5a9e">
+        <img src="laroshe brand.png" alt="La Roche-Posay" />
+      </div>
+
+      <!-- Mary Kay -->
+      <div class="global-store-card" style="background-color: #8a5a9e">
+        <img src="marykay brand.png" alt="Mary Kay" />
+      </div>
+    </div>
+
+    <!-- Promotional Banners Section -->
+    <div class="promotional-banners">
+      <div class="promo-banner">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Group%20169-qFCo7wRLG2be9AkiLgA6vLPWDX9Ds1.png"
+          alt="Promotional Banner"
+        />
+      </div>
+      <div class="promo-banner">
+        <img
+          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Group%20171-EgT77C6BwGUaYEG0dJgZILFihl3IvA.png"
+          alt="Promotional Banner"
+        />
+      </div>
+    </div>
+
+    <!-- Shop More Products Section -->
+    <div class="section-header">Shop More Products</div>
+
+    <img src="products.png" alt="" style="width: 100%" />
+    <img src="products.png" alt="" style="width: 100%" />
+    <img src="products.png" alt="" style="width: 100%" />
+    <img src="products.png" alt="" style="width: 100%" />
+    <img src="products.png" alt="" style="width: 100%" />
+    <img src="products.png" alt="" style="width: 100%" />
+    <img src="products.png" alt="" style="width: 100%" />
+    <img src="products.png" alt="" style="width: 100%" />
+  </body>
+</html>
